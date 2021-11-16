@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Offered</title>
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section id="banner">
+        <img src="img/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Services We Offer</h1>
+            <p>Enjoy the services we Offer</p>
+            <div class="banner-btn">
+                <p>Scroll and see</p>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div id="menuBtn">
+        <img src="img/menu.png" id="menu">
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <h1>Services</h1>
+
+        <h2>Hair Dressing</h2>
+    <div class="card">
+        <img src="img/pexels-thgusstavo-santana-2068672.jpg">
+    <div class="card-body">
+        <h4>David Drassy</h4>
+        <p class="card-text">The best dressing of hair are part of the services we offer</p>
+    </div>
+  </div>
+  <br>
+  
+        <h2>Hair Washing</h2>
+  <div class="card">
+        <img src="img/pexels-cottonbro-3993444.jpg">
+    <div class="card-body">
+        <h4 class="card-title">Jillian Newton</h4>
+        <p class="card-text">Get your hair dirt free and sparkling clean</p>
+    </div>
+  </div>
+  <br>
+
+        <h2>Hair Shaving</h2>
+  <div class="card">
+        <img src="img/pexels-thgusstavo-santana-2076932.jpg">
+    <div class="card-body">
+        <h4 class="card-title">Eugene Gabby</h4>
+        <p class="card-text">Hair cuts and shaving truly are part of us and we give the best shaves</p>
+    </div>
+  </div>
+  <br>
+
+  <h2>Beard Services</h2>
+  <div class="card">
+        <img src="img/pexels-thgusstavo-santana-2881253.jpg">
+    <div class="card-body">
+      <h4 class="card-title">Brian Makaveli</h4>
+      <p class="card-text">We trim your beards to a point of no disappointment and we also design it to the style of your choice</p>
+    </div>
+  </div>
+    </div>
+
+    <section id="footer">
+        <img src="img/footer-img.png" class="footer-img">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <h1>Visit Shop Today</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="fa fa-clock-o"></i>Monday to Friday - 9am to 9pm</p>
+                <p><i class="fa fa-clock-o"></i>Saturday to Sunday - 8am to 11pm</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p>Nairobi, Kenya<i class="fa fa-map-marker"></i></p>
+                <p>bofulojillo@sme.com<i class="fa fa-envelope"></i></p>
+                <p>+254758982500<i class="fa fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="social-links">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+            <p>Copyright Bofulo Jillo Hair Studio and Barber Shop</p>
+        </div>
+    </section>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var menuBtn = document.getElementById("sideNav")
+        var menuBtn = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right="0";
+                menu.src = "img/close.png";
+            }
+            else{
+                sideNav.style.right="-250px";
+                menu.src = "img/menu.png";
+            }
+        }
+        </script>
+</body>
+</html>
