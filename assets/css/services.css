@@ -166,8 +166,12 @@ nav ul li a{
     }
 }
 
+.cards{
+    display: flex;
+}
+
 .card{
-    width:600px
+    width:300px;
 } 
 
 .card img{
