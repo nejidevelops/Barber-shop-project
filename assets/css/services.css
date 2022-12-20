@@ -166,20 +166,11 @@ nav ul li a{
     }
 }
 
-.cards{
+.services-cards h1{
+    font-size: 3em;
     display: flex;
-}
-
-.card{
-    width:300px;
-} 
-
-.card img{
-    width: 100%;
-}
-
-.card-body h4{
-    font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 #footer{

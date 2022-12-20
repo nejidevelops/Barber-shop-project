@@ -11,6 +11,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
 
 </head>
 <body>
@@ -44,63 +45,55 @@
     <br>
     <br>
 
-    <div class="container">
+    <div class="services-cards">
         <h1>Services</h1>
-        <div class="cards">
-            <div>
-                <div>
-                    <h2>Hair Dressing</h2>
+        <div class="grid gap-10 px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="./assets/img/pexels-thgusstavo-santana-2068672.jpg" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Hair Dressing</div>
+                  <p class="text-gray-700 text-base">
+                    The best dressing of hair are part of the services we offer
+                  </p>
                 </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="./assets/img/pexels-thgusstavo-santana-2068672.jpg">
-                    </div>
-                    <div class="card-body">
-                        <h4>David Drassy</h4>
-                        <p class="card-text">The best dressing of hair are part of the services we offer</p>
-                    </div>
+                <div class="px-2 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">David Drassy</span>
                 </div>
             </div>
-            <div>
-                <div>
-                    <h2>Hair Washing</h2>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="./assets/img/pexels-cottonbro-3993444.jpg" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Hair Washing</div>
+                  <p class="text-gray-700 text-base">
+                    Get your hair dirt free and sparkling clean
+                  </p>
                 </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="./assets/img/pexels-cottonbro-3993444.jpg">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Jillian Newton</h4>
-                        <p class="card-text">Get your hair dirt free and sparkling clean</p>
-                    </div>
+                <div class="px-2 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Jillian Newton</span>
                 </div>
             </div>
-            <div>
-                <div>
-                    <h2>Hair Shaving</h2>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="./assets/img/pexels-thgusstavo-santana-2076932.jpg" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Hair Shaving</div>
+                  <p class="text-gray-700 text-base">
+                    Hair cuts and shaving truly are part of us and we give the best shaves
+                  </p>
                 </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="./assets/img/pexels-thgusstavo-santana-2076932.jpg">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Eugene Gabby</h4>
-                        <p class="card-text">Hair cuts and shaving truly are part of us and we give the best shaves</p>
-                    </div>
+                <div class="px-2 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Eugene Gabby</span>
                 </div>
             </div>
-            <div>
-                <div>
-                    <h2>Beard Services</h2>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="./assets/img/pexels-thgusstavo-santana-2881253.jpg" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Beard Services</div>
+                  <p class="text-gray-700 text-base">
+                    We trim your beards to a point of no disappointment and we also design it to the style of your choice
+                  </p>
                 </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="./assets/img/pexels-thgusstavo-santana-2881253.jpg">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Brian Makaveli</h4>
-                        <p class="card-text">We trim your beards to a point of no disappointment and we also design it to the style of your choice</p>
-                    </div>
+                <div class="px-2 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Brian Makaveli</span>
                 </div>
             </div>
         </div>
