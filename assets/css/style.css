@@ -114,7 +114,7 @@ nav ul li a{
 }
 
 #bannerr{
-    background: linear-gradient(rgba(0,0,0,0.5), #042123), url(img/pexels-thgusstavo-santana-1813272.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), #042123), url(../img/pexels-thgusstavo-santana-1813272.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
